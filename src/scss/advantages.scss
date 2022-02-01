@@ -1,0 +1,33 @@
+.advantages {
+    &__wrapper {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        position: relative;
+        bottom: 100px;
+        height: 100%;
+    }
+
+    &__item {
+        text-align: center;
+        width: 27%;
+        min-height: 328px;
+        border-radius: 15px;
+        padding: 48px 17px 20px 17px;
+        margin-bottom: 50px;
+        box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+        color: rgb(124, 124, 124);
+
+        & p {
+            font-family: Tinos;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 26px;
+            line-height: 30px;
+        }
+        & img {
+            width: fit-content;
+          }
+    }
+}

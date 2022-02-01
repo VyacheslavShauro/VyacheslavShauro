@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,400;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,800;1,400;1,600&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./dist/css/index.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__wrapper">
+        <div class="header__logo">
+          <img src="src/images/LOGO.png" alt="Header logo" />
+        </div>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a href="#" class="header__link">главная</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Меню</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">О нас</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Бронь</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link_shopping-cart">
+                <img src="src/images/cart.svg" class="shopping-cart" alt="shopping-cart">
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__nav header__call">
+          <div class="header__call-logo">
+            <!-- <img src="src/images/phone.svg" alt="phone logo" class="phone__logo"> -->
+            <a href="88005553535" class="header__link header__link_call">8-800-555-35-35</a>
+          </div>
+          <p>Свяжитесь с нами для бронирования</p>
+        </div>
+        <button class="header__btn btn" type="button">Заказ столика</button>
+        <button class="header__menu hamburger" type="button">
+          <svg viewBox="0 0 800 600">
+            <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" class="top">
+            </path>
+            <path d="M300,320 L540,320" class="middle"></path>
+            <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" class="bottom"
+              transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="banner">
+      <div class="container">
+        <div class="banner__wrapper">
+          <div class="banner__wrapper_content">
+            <h1 class="banner__title">Добро пожаловать в</h1>
+            <p class="banner__subtitle">Наш ресторан</p>
+            <p class="banner__text">Дом лучшей еды</p>
+            <button class="banner__btn btn">Смотреть меню</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <div class="advantages__wrapper">
+          <div class="advantages__item">
+            <img src="src/images/Rectangle 35.png" alt="Кастрюлька">
+            <h2>Магическая <span class="orange">Атмосфера</span></h2>
+            <p>В нашем заведении царит магическая атмосфера наполненная вкусными ароматами</p>
+          </div>
+          <div class="advantages__item">
+            <img src="src/images/Rectangle 35.png" alt="Кастрюлька">
+            <h2>Лучшее качевство <span class="orange">Еды</span></h2>
+            <p>Качество нашей<br>Еды - отменное!</p>
+          </div>
+          <div class="advantages__item">
+            <img src="src/images/Rectangle 35.png" alt="Кастрюлька">
+            <h2>Недорогая <span class="orange">Еда</span></h2>
+            <p>Стоимость нашей Еды зависит только от колличества. Качество всегда на высоте!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="story">
+      <div class="container">
+        <div class="story__wrapper">
+          <div class="story__left">
+            <h2>Наша <span class="orange">История</span></h2>
+            <p>Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла
+              основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров
+              от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе
+              нехитрый быт, добывать и готовить себе еду.</p>
+            <div class="story__left_food_counter">
+              <div class="food-counter">
+                <p class="orange_number">98</p>
+                <p class="food-counter_item">Напитки</p>
+              </div>
+              <div class="food-counter">
+                <p class="orange_number">206</p>
+                <p class="food-counter_item">Еда</p>
+              </div>
+              <div class="food-counter">
+                <p class="orange_number">71</p>
+                <p class="food-counter_item">Закуски</p>
+              </div>
+            </div>
+          </div>
+          <div class="story__right">
+            <img src="src/images/story_1.png" alt="cofee" class="img_one">
+            <img src="src/images/story_2.png" alt="story2" class="img_two">
+            <img src="src/images/story_3.png" alt="story3" class="img_tree">
+            <img src="src/images/story_box.png" alt="story_box" class="img_box">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="delicious-banner">
+      <div class="container">
+        <div class="delicious-banner__wrapper">
+          <div class="delicious-banner__content">
+            <h3 class="delicious-banner__content_orange">Отпразднуйте в одном из <br>
+              самых лучших ресторанов.</h3>
+            <p class="delicious-banner__content_text">Только в этом месяце бизнес-ланч от 250 ₽</p>
+          </div>
+          <div class="delicious-banner__btn">
+            <button class="btn delicious-banner__btn_style">Заказ столика</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="our-foods">
+      <div class="container">
+        <div class="our-foods__wrapper">
+          <h2>Наши <span class="orange">Блюда</span></h2>
+          <div class="our-foods__menu">
+            <div class="our-foods__menu_img">
+              <img src="src/images/pizza.png" alt="pizza.png" class="menu__img_item item__one">
+              <div class="menu__img_items">
+                <img src="src/images/hamburger.png" alt="hamburger.png" class="menu__img_item item__two">
+                <img src="src/images/hamburger.png" alt="hamburger.png" class="menu__img_item item__two">
+                <img src="src/images/hamburger.png" alt="hamburger.png" class="menu__img_item item__two">
+
+                <div class="our-foods__menu_price">
+                <p class="price__item">Гамбургер мини</p>
+                <p class="price__item">Гамбургер мини</p>
+                <p class="price__item">Гамбургер мини</p>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <div class="modal-window">
+    <div class="modal-window__wrapper">
+      <h3>Заполните данные</h3>
+      <form action="#" class="form__wrapper">
+        <input type="text" class="form__item" placeholder="Ваше имя">
+        <input type="number" class="form__item" placeholder="Введите ваш номер телефона">
+        <input type="date" class="form__item" placeholder="Выберите дату">
+        <input type="email" class="form__item" placeholder="Ваш E-mail">
+
+        <button class="btn form__item">Заказать столик</button>
+        <button type="button" class="modal-window__close"></button>
+      </form>
+    </div>
+  </div>
+  <script src="src/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.banner {
+  
+  background-image: url("../../src/images/hero-image.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  width: 100%;
+  padding: 230px 0;
+
+  &__wrapper {
+    display: flex;
+    padding-left: 50px;
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      height: 100%;
+    }
+  }
+
+  &__title,
+  &__subtitle {
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    margin: 15px;
+    line-height: 57px;
+
+    color: #D67E35;
+  }
+
+  &__subtitle {
+    font-size: 80px;
+  }
+
+  &__text {
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-style: italic;
+    color: #FFFFFF;
+
+    &::before,
+    &::after {
+      content: "";
+      display: block;
+      position: relative;
+      width: 61px;
+      height: 2px;
+      background: #fff;
+    }
+    &::after {
+      top: -16px;
+      left: 178px;
+    }
+    &::before {
+      right: 70px;
+      top: 11px;
+    }
+  }
+}

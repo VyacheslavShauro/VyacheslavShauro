@@ -1,0 +1,41 @@
+.btn {
+  display: block;
+  width: 157px;
+  height: 47px;
+  margin: 20px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+  background: #ff7400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: color 0.1s linear, background-color 0.1s linear;
+  &:hover{
+    background-color: #db6402;
+  }
+  &__submenu {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+    background-color: burlywood;
+  }
+  .banner__btn{
+    width: 137px;
+  }
+
+  &_menu {
+    width: 220px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 22px;
+    background: #1d1610;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  }
+}

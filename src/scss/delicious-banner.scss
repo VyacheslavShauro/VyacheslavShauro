@@ -1,0 +1,31 @@
+.delicious-banner {
+    width: 100%;
+    min-height: 357px;
+    padding: 90px 0;
+    background-image: url("../../src/images/bg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__content_orange {
+        font-size: 52px;
+        color: #D67E34;
+    }
+    &__content_text{
+        margin-top: 20px;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 33px;
+        color: #FFFFFF;
+        }
+    &__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

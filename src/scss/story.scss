@@ -1,0 +1,93 @@
+.story {
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    min-height: 620px;
+
+  }
+
+  &__left {
+    width: 40%;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+    color: #656363;
+
+    h2 {
+      font-family: 'Tinos';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 54px;
+      margin-bottom: 20px;
+
+      .orange {
+        color: #BC9060;
+      }
+    }
+
+    p {
+      margin-top: 40px;
+    }
+
+    &_food_counter {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .food-counter {
+    font-size: 40px;
+    margin-left: 50px;
+
+    &_item {
+      font-size: 20px;
+      color: black;
+    }
+
+    .orange_number {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 40px;
+      line-height: 54px;
+      text-align: center;
+      color: rgb(207, 147, 57);
+    }
+  }
+
+  &__right {
+    position: relative;
+    width: 50%;
+
+    .img_one {
+      position: absolute;
+      z-index: 10;
+      top: 30px;
+      left: 15px;
+    }
+
+    .img_two {
+      position: absolute;
+      z-index: 9;
+      top: 190px;
+      left: 315px;
+    }
+
+    .img_tree {
+      position: absolute;
+      z-index: 5;
+      top: 0;
+      left: 190px;
+    }
+
+    .img_box {
+      position: absolute;
+      z-index: 1;
+      top: 20px;
+      right: 60px;
+    }
+  }
+}
