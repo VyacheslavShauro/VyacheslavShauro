@@ -17,4 +17,5 @@ modalOpenBtn.addEventListener('click', ()=>{
 });
 modalCloseBtn.addEventListener('click', () =>{
   modalWindow.classList.remove('modal-window__show');
-})
+});
+//dsfd
