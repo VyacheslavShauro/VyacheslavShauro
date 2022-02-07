@@ -1,6 +1,7 @@
 .our-foods {
     margin: 50px 0;
-    &__wrapper{
+
+    &__wrapper {
         display: flex;
         flex-direction: column;
 
@@ -14,35 +15,40 @@
             font-weight: normal;
             font-size: 54px;
             margin-bottom: 20px;
-      
+
             .orange {
-              color: #BC9060;
+                color: #BC9060;
             }
-          }
+        }
+
     }
-    &__menu_img{
 
-        &_item{
+    &__menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
 
-        }
-        .item__one{
-            float: left;
-            &::after{
-                content: " ";
-                clear: both;
-            }
+    &__menu_img {
+        
 
-        }
-        &_items{
+
+        .menu__img_items {
             display: flex;
             flex-direction: column;
             height: 100%;
-            float: left;
-            &::after{
-                content: " ";
-                clear: both;
+        
+        .menu__img_item{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            height: 100%;
+            .item__two{
+                border: 1px solid blue;
+                
             }
-            
         }
     }
+}
 }

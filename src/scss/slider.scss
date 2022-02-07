@@ -1,0 +1,49 @@
+.slider {
+    margin-bottom: 50px;
+
+    &__wrapper {
+        position: relative;
+        width: 683px;
+        height: 384px;
+
+    }
+
+    &__img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 30%;
+        background-color: rgb(38, 12, 184);
+
+    &_item {
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+
+&__prev,
+&__next {
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-bottom: 2px solid #4d7788;
+    border-left: 2px solid #4d7788;
+    z-index: 4;
+
+}
+
+&__prev {
+    top: 50%;
+    left: 25%;
+    transform: translateY(-50%) rotate(45deg) ;
+}
+
+&__next {
+    top: 50%;
+    right: -35%;
+    transform: translateY(-50%) rotate(-135deg) ;
+}
+}
