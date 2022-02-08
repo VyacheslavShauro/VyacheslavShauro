@@ -1,5 +1,5 @@
 .slider {
-    margin-bottom: 50px;
+    margin-bottom: 200px;
 
     &__wrapper {
         position: relative;
@@ -45,5 +45,20 @@
     top: 50%;
     right: -35%;
     transform: translateY(-50%) rotate(-135deg) ;
+}
+&__info{
+    position: absolute;
+    bottom: -40px;
+    left: 80%;
+    font-size: 30px;
+    font-weight: 600;
+
+
+}
+&__current{
+
+}
+&__total{
+
 }
 }

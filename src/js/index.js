@@ -6,10 +6,13 @@ const btn = document.querySelector(".header__menu"),
       slider = document.querySelector('.slider'),
       slides = slider.querySelectorAll('.slider__img'),
       sliderPrevBtn = slider.querySelector('.slider__prev'),
-      sliderNextBtn = slider.querySelector('.slider__next');
+      sliderNextBtn = slider.querySelector('.slider__next'),
+      current = slider.querySelector('.slider__current'),
+      total = slider.querySelector('.slider__total');
 
 
 let currentSlide = 1;
+total.textContent = slides.length;
 
 
 
@@ -36,7 +39,7 @@ sliderPrevBtn.addEventListener('click', () => {
   
 });
 sliderNextBtn.addEventListener('click', () => {
-  showSlides((currentSlide +=1))
+  showSlides((currentSlide += 1))
 })
 
 function showSlides(n){
@@ -50,5 +53,6 @@ function showSlides(n){
     item.style.display = 'none';
   });
   slides[currentSlide - 1].style.display = 'block';
+  current.textContent = currentSlide;
 }
 showSlides(currentSlide);
